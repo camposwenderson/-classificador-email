@@ -1,0 +1,135 @@
+/* RESET E BODY */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  font-family: Inter, Arial, sans-serif;
+  background: #ffffff;
+  color: #111;
+  line-height: 1.5;
+}
+
+/* HEADER */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10%;
+  border-bottom: 1px solid #eee;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.lang {
+  font-size: 14px;
+  cursor: default; /* não clicável por enquanto */
+}
+
+.lang .selected {
+  font-weight: bold;
+  color: #7c3aed; /* destaque em roxo */
+}
+
+/* FORM SECTION */
+.form-section {
+  width: 100%;
+  background-color: #111827;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.form-section .form-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #1f2937;
+  border-radius: 12px;
+  box-sizing: border-box;
+}
+
+.form-section h2 {
+  font-size: 1.8rem;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.form-section p {
+  color: #9ca3af;
+  margin-bottom: 30px;
+}
+
+/* FORM */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form input,
+.form textarea {
+  padding: 14px;
+  font-size: 14px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background-color: #1f2937;
+  color: #fff;
+}
+
+.form textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+/* FILE */
+.file-label {
+  text-align: left;
+  font-size: 14px;
+  color: #fff;
+  display: block;
+}
+
+.file-label input {
+  margin-top: 6px;
+  width: 100%;
+}
+
+/* BOTÃO CTA */
+.cta-button {
+  width: 100%;
+  padding: 16px 0;
+  background: linear-gradient(90deg, #7c3aed, #f97316);
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition:
+    opacity 0.2s ease,
+    box-shadow 0.2s ease;
+  box-shadow: 0 10px 30px rgba(124, 58, 237, 0.35);
+}
+
+.cta-button:hover {
+  opacity: 0.9;
+}
+
+.cta-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* RESULTADO */
+.resultado {
+  margin-top: 30px;
+  padding: 16px;
+  background: #f5f5f5;
+  border-radius: 8px;
+  text-align: left;
+}
