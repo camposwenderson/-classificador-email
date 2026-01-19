@@ -37,4 +37,16 @@ O sistema classifica emails em **Produtivo** ou **Improdutivo** e sugere respost
 ---
 
 ## Estrutura do Projeto
+classificador-email/
+│
+├─ frontend/      # React + Vite
+│   ├─ src/
+│   ├─ public/
+│   └─ package.json
+│
+├─ backend/       # Flask + Python
+│   ├─ main.py
+│   └─ requirements.txt
+│
+└─ README.md
 
