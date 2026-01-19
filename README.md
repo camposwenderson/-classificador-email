@@ -28,10 +28,10 @@ O sistema classifica emails em **Produtivo** ou **Improdutivo** e sugere respost
 
 ## Tecnologias Utilizadas
 
-- **Frontend:** HTML, CSS, JavaScript
+- **Frontend:** React com Vite
 - **Backend:** Python, Flask/FastAPI
 - **Processamento de Linguagem Natural:** Hugging Face Transformers, NLTK, spaCy
-- **Hospedagem:** Heroku / Render / Hugging Face Spaces (substitua conforme usado)
+- **Hospedagem:** Vercel
 - **Controle de Versão:** Git e GitHub
 
 ---
