@@ -28,12 +28,12 @@ body {
 
 .lang {
   font-size: 14px;
-  cursor: default; /* não clicável por enquanto */
+  cursor: default;
 }
 
 .lang .selected {
   font-weight: bold;
-  color: #7c3aed; /* destaque em roxo */
+  color: #7c3aed;
 }
 
 /* FORM SECTION */
