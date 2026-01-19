@@ -115,6 +115,57 @@ function App() {
           )}
         </div>
       </section>
+      {/* FOOTER */}
+      <footer className="footer">
+        <div className="footer-container">
+          <div className="footer-brand">
+            <img src={Logo} alt="AutoU" width={140} />
+            <p>
+              Criamos soluções em IA que simplificam processos e geram
+              resultados reais para empresas.
+            </p>
+          </div>
+
+          <div className="footer-offices">
+            <div>
+              <h4>São Paulo</h4>
+              <p>
+                Alameda Vicente Pinzon, 54
+                <br />
+                Vila Olímpia, SP
+                <br />
+                04547-130
+              </p>
+            </div>
+
+            <div>
+              <h4>Rio de Janeiro</h4>
+              <p>
+                Avenida Rio Branco, 156
+                <br />
+                Centro, RJ
+                <br />
+                20040-901
+              </p>
+            </div>
+
+            <div>
+              <h4>Miami</h4>
+              <p>
+                21 SE 1st Ave #10
+                <br />
+                Miami, FL
+                <br />
+                33131
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="footer-bottom">
+          © {new Date().getFullYear()} AutoU — Tecnologia que trabalha por você.
+        </div>
+      </footer>
     </>
   );
 }
