@@ -77,6 +77,3 @@ def classify_route():
     result = classify_pdf(pdf_text)
     return jsonify(result)
 
-# ===================== Inicialização =====================
-if __name__ == "__main__":
-    app.run(debug=True, port=8080)
